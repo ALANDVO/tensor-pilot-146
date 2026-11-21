@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "current_feature": "beats_concrete_numbers",
+  "features": [
+    {
+      "id": "beats_concrete_numbers",
+      "title": "beats.py counts spoken numbers as concrete",
+      "status": "done",
+      "acceptance": [
+        "spoken numbers like five twenty are counted as concrete",
+        "capitalised word starting second sentence is NOT counted as proper name",
+        "beats output reflects correct concrete count"
+      ],
+      "implementation": [
+        "skills/ig-reel/beats.py"
+      ],
+      "tests": [
+        "tests/test_beats.py"
+      ]
+    }
+  ]
+}
