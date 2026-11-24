@@ -10,10 +10,14 @@ continue-implementation
 
 ### continue-implementation — Continue implementation and resolve known failures
 
-Status: in_progress
+Status: done
 
 Acceptance:
 - Run checks, fix failures, and implement the next planned feature
+
+Implementation: `skills/ig-reel/beats.py - fixed proper name detection across line boundaries`
+
+Tests: `Verified multi-line sentence boundary handling; spoken number words and digits still counted correctly`
 
 ---
 
