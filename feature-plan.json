@@ -5,12 +5,16 @@
     {
       "id": "continue-implementation",
       "title": "Continue implementation and resolve known failures",
-      "status": "in_progress",
+      "status": "done",
       "acceptance": [
         "Run checks, fix failures, and implement the next planned feature"
       ],
-      "implementation": [],
-      "tests": []
+      "implementation": [
+        "skills/ig-reel/beats.py - fixed proper name detection across line boundaries"
+      ],
+      "tests": [
+        "Verified multi-line sentence boundary handling; spoken number words and digits still counted correctly"
+      ]
     }
   ]
 }
